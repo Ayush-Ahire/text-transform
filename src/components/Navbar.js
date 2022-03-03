@@ -9,7 +9,7 @@ export default function navbar(props) {
         className={`navbar navbar-expand-sm bg-${props.mode} navbar-${props.mode} fixed-top`}
       >
         <div className="container-fluid main-box">
-          <a className="navbar-brand " href="/">
+          <a className="navbar-brand " href="#">
             TextTransformer
           </a>
 
@@ -27,7 +27,7 @@ export default function navbar(props) {
           >
             <ul className="navbar-nav justify-content-end">
               <li className="nav-item">
-                <a href="/" className="nav-link home">
+                <a href="#" className="nav-link home">
                   HOME
                 </a>
               </li>
